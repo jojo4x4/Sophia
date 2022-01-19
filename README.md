@@ -1,0 +1,2 @@
+# Sophia
+A discord bot
