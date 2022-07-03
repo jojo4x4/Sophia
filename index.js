@@ -13,7 +13,7 @@ for (const file of commandFiles) {
 }
 
 client.on('ready', () => {
-    console.log('Connected');
+    console.log(`Connected as ${client.user.tag}`);
 });
 
 client.on('interactionCreate', async interaction => {
